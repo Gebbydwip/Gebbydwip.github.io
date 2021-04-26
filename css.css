@@ -1,0 +1,155 @@
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  position: left;
+  z-index: 99;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: Lobster two;
+  font-size: 32px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid black;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+/* SLIDER */
+
+.d-block {
+  max-height: 750px;
+  max-width: 1600px;
+}
+
+/* BODY */
+body {
+  background-color: #eeeee4;
+}
+
+/* ABOUT */
+.square {
+  max-height: 220px;
+  max-width: 200px;
+}
+
+.about {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.about h2 {
+  padding-bottom: 30px;
+}
+
+.about h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+/* HOBBIES */
+
+.hobbies i {
+  margin-left: 44%;
+  margin-right: 50%;
+  margin-top: 40px;
+}
+
+.hobbies p {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* ACADEMIC */
+.academic {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: 200px;
+  background-color: rgba(253, 215, 3, 0.8);
+  padding: 30px;
+}
+
+.academic img {
+  width: 80px;
+  height: 80px;
+  margin-left: 38%;
+  margin-right: 50%;
+}
+
+.academic h6 {
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.academic p {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* CONTACT */
+#contact {
+  margin-top: 200px;
+}
+
+/* FORM */
+.container form input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(253, 215, 3, 0.8);
+  color: #fff;
+  font-size: 20px;
+}
+.container form textarea {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(253, 215, 3, 0.8);
+  color: #fff;
+  font-size: 20px;
+}
+
+.container form button {
+  width: 100%;
+  padding: 5px 0;
+  border: none;
+  background-color: #2979ff;
+  font-size: 18px;
+  color: #fafafa;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  color: black;
+}
